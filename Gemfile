@@ -56,5 +56,4 @@ end
 gem 'redis'
 gem 'sidekiq'
 gem 'sinatra', '>= 1.3.0', :require => nil
-gem 'time_difference'
 

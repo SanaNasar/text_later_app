@@ -13,7 +13,7 @@ Rails.application.routes.draw do
 
   get "/logout" => "session#destroy" #TODO: DELETE THIS BEFORE PRODUCTION
 
-  root 'site#index'
+  root 'users#index'
 
   resources :users do
     resources :saved_msgs
